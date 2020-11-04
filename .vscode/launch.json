@@ -3,6 +3,15 @@
     "version": "0.1.0",
     "configurations": [
         {
+            "name": "Connect to server",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "remotePath": "${workspaceFolder}",
+            "port": 2345,
+            "host": "127.0.0.1"
+        },
+        {
             "name": "Launch Extension",
             "type": "extensionHost",
             "request": "launch",
